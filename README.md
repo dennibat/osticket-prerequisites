@@ -101,11 +101,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   	<img src="https://i.imgur.com/wWl7bLm.png" height="75%" width="100%" alt="PHP"/>	
 </p>
 <p>
-  Reload IIS (Open IIS, Stop and Start the server)
+ <h3 align="center"> Register PHP from within IIS</h3>
 
 </p>
 <p>
   	<img src="https://i.imgur.com/jq255if.png" height="75%" width="100%" alt="PHP"/>	
+	
+</p>
+<p>
+  <h3 align="center">Reload IIS (Open IIS, Stop and Start the server)</h3>
+
+</p>
+<p>
 	<img src="https://i.imgur.com/tmUZaGe.png" height="75%" width="100%" alt="PHP"/>
 </p>
 <p>
