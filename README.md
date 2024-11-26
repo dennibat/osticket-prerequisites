@@ -77,25 +77,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 <p>
- Create the directory C:\PHP
+ <h3 align="center">Create the directory C:\PHP</h3>
 </p>
 <p>
 	<h3 align="center"><img src="https://i.imgur.com/FkBrdTh.png="100%" alt="MySQL 5.5"/></h3>
   </p>
 <o>
-  unzip PHP 7.3.8 into the “C:\PHP” folder
+ <h3 align="center"> unzip PHP 7.3.8 into the “C:\PHP” folder</h3>
 </p>
 <p>
 	<img src="https://i.imgur.com/C3wK4Vt.png="75%" width="100%" alt="Credentials"/>
 </p>
 <p>
-  Install C++
+  <h3 align="center">Install C++</h3>
 </p>
 <p>
 	<img src="https://i.imgur.com/A6RXUwS.png" height="75%" width="100%" alt="PHP"/>
 </p>
 <p>
-  Install MySQL 5.5.62  
+  <h3 align="center">Install MySQL 5.5.62</h3>  
 </p>
 <p>
   	<img src="https://i.imgur.com/wWl7bLm.png" height="75%" width="100%" alt="PHP"/>	
