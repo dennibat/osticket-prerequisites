@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	Create a Resource Group
 </p>
 <p>
-	<img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" alt="Resource Group"/>
+	<img src="https://i.imgur.com/4iw7HEy.png" height="75%" width="100%" alt="Resource Group"/>
 </p>
 <p>
 	Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
@@ -48,62 +48,85 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3 align="center">Connect to your Virtual Machine with Remote Desktop</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/eUGckZH.png" height="75%" width="100%" alt="Remote Desktop"/>
+	<img src="https://i.imgur.com/8GSNqkm.png" height="75%" width="100%" alt="Remote Desktop"/>
 </p>
 <br />
 <br />
 <h3 align="center">Install / Enable IIS in Windows</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/iB0DDRd.png" height="75%" width="100%" alt="Enable IIS in Windows"/>
+	<img src="https://i.imgur.com/rA6RizL.png="75%" width="100%" alt="Enable IIS in Windows"/>
+</p>
+<br />
+<br />
+<p>
+	<img src="https://i.imgur.com/0EDEbap.png"75%" width="100%" alt="Enable IIS in Windows"/>
 </p>
 <br />
 <br />
 <h3 align="center">Install Web Platform Installer</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/Fw4m4fZ.png" height="75%" width="100%" alt="Enable IIS in Windows"/>
+	<img src="https://i.imgur.com/YbK46JQ.png="75%" width="100%" alt="Enable IIS in Windows"/>
 </p>
 <p>
-  Open after installation:
+   Install the Rewrite Module
 </p>
 <p>
-	<img src="https://i.imgur.com/X0GcGff.png" height="75%" width="100%" alt="MySQL 5.5"/>
+	<img src="https://i.imgur.com/GLhLoYD.png="100%" alt="MySQL 5.5"/>
 </p>
 <br />
 <p>
-  Add MySQL 5.5 (it will ask for credentials to be created later).
+ Create the directory C:\PHP
 </p>
 <p>
-  Name: root
-</p>
+	<img src="https://i.imgur.com/FkBrdTh.png="100%" alt="MySQL 5.5"/>
+  </p>
 <o>
-  Password: Password1:
+  unzip PHP 7.3.8 into the “C:\PHP” folder
 </p>
 <p>
-	<img src="https://i.imgur.com/zdhWXNx.png" height="75%" width="100%" alt="Credentials"/>
+	<img src="https://i.imgur.com/C3wK4Vt.png="75%" width="100%" alt="Credentials"/>
 </p>
 <p>
-  Add All simple versions of x86 PHP up until 7.3:
+  Install C++
 </p>
 <p>
-	<img src="https://i.imgur.com/0npbiTj.png" height="75%" width="100%" alt="PHP"/>
+	<img src="https://i.imgur.com/A6RXUwS.png" height="75%" width="100%" alt="PHP"/>
 </p>
 <p>
-  Fix any failures if required. 
+  Install MySQL 5.5.62  
 </p>
 <p>
-  Install PHP Version 7.3.8 (or any other version if necessary, archives).
+  	<img src="https://i.imgur.com/wWl7bLm.png" height="75%" width="100%" alt="PHP"/>	
 </p>
 <p>
-  Install Microsoft Visual C++ 2009 Redistributable Package (if necessary).
+  Reload IIS (Open IIS, Stop and Start the server)
+
 </p>
 <p>
-  Install PHP Manager 1.5.0 for IIS 10:
+  	<img src="https://i.imgur.com/jq255if.png" height="75%" width="100%" alt="PHP"/>	
+	<img src="https://i.imgur.com/tmUZaGe.png" height="75%" width="100%" alt="PHP"/>
 </p>
 <p>
-	<img src="https://i.imgur.com/LcD8jGJ.png" height="75%" width="100%" alt="PHP Manager"/>
+Install osTicket v1.15.8
 </p>
+<p>
+	<img src="https://i.imgur.com/tw2cQyG.png" height="75%" width="100%" alt="PHP Manager"/>
+</p>
+<p>
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+</p>
+<p>
+	<img src="https://i.imgur.com/nDA31g5.png" height="75%" width="100%" alt="PHP Manager"/>
+</p>
+<p>
+Install osTicket v1.15.8
+</p>
+<p>
+	<img src="https://i.imgur.com/tw2cQyG.png" height="75%" width="100%" alt="PHP Manager"/>
+</p>
+<p>
 <br />
 <br />
 <h3 align="center">Install osTicket v1.15.8</h3>
