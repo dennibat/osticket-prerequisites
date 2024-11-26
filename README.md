@@ -288,17 +288,10 @@ Install osTicket v1.15.8
 <h3 align="center">Clean up</h3>
 <br />
 <p>
-	Delete: C:\inetpub\wwwroot\osTicket\setup:
+	
 </p>
 <p>
-	<img src="https://i.imgur.com/eg0ZPG3.png" height="75%" width="100%" alt="clean up"/>
-</p>
-<p>
-	Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
-</p>
-<p>
-	<img src="https://i.imgur.com/n6k46XL.png" height="75%" width="100%" alt="permissions"/>
-</p>
+	
 <br />
 <br />
 <h3 align="center">Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)</h3>
