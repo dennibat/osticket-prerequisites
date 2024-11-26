@@ -70,7 +70,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	<img src="https://i.imgur.com/YbK46JQ.png="75%" width="100%" alt="Enable IIS in Windows"/>
 </p>
 <p>
-   Install the Rewrite Module
+  <h3 align="center"> Install the Rewrite Module</h3>
 </p>
 <p>
 	<img src="https://i.imgur.com/GLhLoYD.png="100%" alt="MySQL 5.5"/>
@@ -80,7 +80,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  Create the directory C:\PHP
 </p>
 <p>
-	<img src="https://i.imgur.com/FkBrdTh.png="100%" alt="MySQL 5.5"/>
+	<h3 align="center"><img src="https://i.imgur.com/FkBrdTh.png="100%" alt="MySQL 5.5"/></h3>
   </p>
 <o>
   unzip PHP 7.3.8 into the “C:\PHP” folder
