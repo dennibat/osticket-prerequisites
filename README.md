@@ -116,13 +116,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	<img src="https://i.imgur.com/tmUZaGe.png" height="75%" width="100%" alt="PHP"/>
 </p>
 <p>
-Install osTicket v1.15.8
+<h3 align="center">Install osTicket v1.15.8</h3>
 </p>
 <p>
 	<img src="https://i.imgur.com/tw2cQyG.png" height="75%" width="100%" alt="PHP Manager"/>
 </p>
 <p>
-Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+<h3 align="center">Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”</h3>
 </p>
 <p>
 	<img src="https://i.imgur.com/nDA31g5.png" height="75%" width="100%" alt="PHP Manager"/>
@@ -270,7 +270,7 @@ Install osTicket v1.15.8
 </p>
 <p>
 	Create a database called “osTicket”:
-</p>
+
 <p>
 	<img src="https://i.imgur.com/vXzmQqg.png" height="75%" width="100%" alt="create database"/>
 </p>
