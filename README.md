@@ -128,83 +128,42 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	<img src="https://i.imgur.com/nDA31g5.png" height="75%" width="100%" alt="PHP Manager"/>
 </p>
 <p>
-Install osTicket v1.15.8
+<h3 align="center">Reload IIS (Open IIS, Stop and Start the server)</h3>
 </p>
 <p>
-	<img src="https://i.imgur.com/tw2cQyG.png" height="75%" width="100%" alt="PHP Manager"/>
+	<img src="https://i.imgur.com/SRej42b.png" height="75%" width="100%" alt="PHP Manager"/>
 </p>
 <p>
 <br />
 <br />
-<h3 align="center">Install osTicket v1.15.8</h3>
+<h3 align="center">Go through folder of osTicket and click “Browse *:80” </h3>
 <br />
 <p>
-  Download osTicket (download from within lab files: link).
+  	<img src="https://i.imgur.com/vI7u56F.png" height="75%" width="100%" alt="PHP Manager"/>		
 </p>
 <p>
-	<h3 align="center">Extract and copy the “upload” folder INTO c:\inetpub\wwwroot:</h3>
+	 Click “Enable or disable an extension”.
+
+Enable: php_imap.dll.
+
+Enable: php_intl.dll.
+
+Enable: php_opcache.dll: 
+<p>
+
+<h3 align="center">Refresh the osTicket site in your browser, observe the changes</h3>
 </p>
-	<img src="https://i.imgur.com/0MUJLMU.png" height="75%" width="100%" alt="PHP Manager"/>
+	<img src="https://i.imgur.com/XP68f6n.png" height="75%" width="100%" alt="PHP Manager"/>
  <p>
-	<img src="https://i.imgur.com/1h9goM8.png" height="75%" width="100%" alt="PHP Manager"/>
+	
 <p>
-	Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
+	<h3 align="center">Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:</h3>
 	
 </p>
 <p>
 	<img src="https://i.imgur.com/pDikkgq.png" height="75%" width="100%" alt="rename to osTicket"/>
 </p>
 <br />
-<br />
-<h3 align="center">Reload IIS (Open IIS, Stop and Start the server)</h3>
-<br />
-<p>
-	Go to sites -> Default -> osTicket:
-</p>
-<p>
-	<img src="https://i.imgur.com/QeWNlG3.png" height="75%" width="100%" alt="default osTicket"/>
-</p>
-<p>
-	On the right, click “Browse *:80”:
-</p>
-<p>
-	<img src="https://i.imgur.com/3iXhNbi.png" height="75%" width="100%" alt="port 80"/>
-</p>
-<br />
-<br />
-<h3 align="center">Enable Extensions in IIS: Note that some extensions are not enabled</h3>
-<br />
-<p>
-	Go back to IIS, sites -> Default -> osTicket.
-</p>
-<p>
-	Double-click PHP Manager:
-</p>
-<p>
-	<img src="https://i.imgur.com/LFKo5Hs.png" height="75%" width="100%" alt="PHP Manager"/>
-</p>
-<p>
-	Click “Enable or disable an extension”.
-</p>
-<p>
-	Enable: php_imap.dll.
-</p>
-<p>
-	Enable: php_intl.dll.
-</p>
-<p>
-	Enable: php_opcache.dll:
-</p>
-<p>
-	<img src="https://imgur.com/a/nrQo0kz" height="75%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<br />
-<h3 align="center">Refresh the osTicket site in your browser, observe the changes</h3>
-<br />
-<p>
-	<img src="https://i.imgur.com/6iSNd4H.png" height="75%" width="100%" alt="osTicket change"/>
-</p>
 <br />
 <br />
 <h3 align="center">Rename</h3>
@@ -214,29 +173,28 @@ Install osTicket v1.15.8
 </p>
 <p>
 	To: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
+<br />
+<p>
 </p>
 <p>
-	<img src="https://i.imgur.com/TEw71SD.png" height="75%" width="100%" alt="ost-config"/>
+	<img src="https://i.imgur.com/KRuVrRf.png" height="75%" width="100%" alt="default osTicket"/>
 </p>
-<br />
+<p>
 <br />
 <h3 align="center">Assign Permissions: ost-config.php</h3>
 <br />
 <p>
 	Disable inheritance -> Remove All:
+	</p>
+	New Permissions -> Everyone -> All
 </p>
 <p>
-	<img src="https://i.imgur.com/1QtRWEF.png" height="75%" width="100%" alt="disable inheritance"/>
+	<img src="https://i.imgur.com/CodE4iy.png" height="75%" width="100%" alt="disable inheritance"/>
 </p>
 <p>
-	New Permissions -> Everyone -> All:
+	
 </p>
-<p>
-	<img src="https://i.imgur.com/YzsMXNX.png" height="75%" width="100%" alt="new permissions"/>
-</p>
-<p>
-	<img src="https://i.imgur.com/k7x9yGR.png" height="75%" width="100%" alt="new permissions - all"/>
-</p>
+<br />
 <br />
 <br />
 <h3 align="center">Continue Setting up osTicket in the browser (click Continue)</h3>
@@ -247,33 +205,34 @@ Install osTicket v1.15.8
 <p>
 	Default email (receives email from customers):
 </p>
-<p>
-	<img src="https://i.imgur.com/rvMvlNC.png" height="75%" width="100%" alt="continue osTicket setup"/>
-	<img src="https://i.imgur.com/YszhIpl.png" height="75%" width="100%" alt="osTicket settings"/>
 </p>
-
-<br />
+<p>
+	<img src="https://i.imgur.com/CnlONzy.png" height="75%" width="100%" alt="PHP Manager"/>
+</p>
+<p>
 <br />
 <h3 align="center">Download and Install HeidiSQL</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/AEg0b2P.png" height="75%" width="100%" alt="download HeidiSQL"/>
+	<img src="https://i.imgur.com/hvH8vjv.png" height="75%" width="100%" alt="download HeidiSQL"/>
+</p>
 </p>
 <p>
-	Create a new session, root/Password1.
+	Create a new session, root/root.
 </p>
 <p>
 	Connect to the session:
-</p>
+<br />
+<br />
+	<img src="https://i.imgur.com/sqUwUqB.png" height="75%" width="100%" alt="download HeidiSQL"/>
+<br />
+<br />
+Create a database called “osTicket”:
+<br />
 <p>
-	<img src="https://i.imgur.com/9t51ApR.png" height="75%" width="100%" alt="create sessions"/>
+	<img src="https://i.imgur.com/mU9Dg3d.png" height="75%" width="100%" alt="osTicket change"/>
 </p>
-<p>
-	Create a database called “osTicket”:
-
-<p>
-	<img src="https://i.imgur.com/vXzmQqg.png" height="75%" width="100%" alt="create database"/>
-</p>
+<br />
 <br />
 <br />
 <h3 align="center">Continue Setting up osTicket in the browser</h3>
@@ -283,32 +242,22 @@ Install osTicket v1.15.8
 	MySQL Username: root
 </p>
 <p>
-	MySQL Password: Password1:
+	MySQL Password: root:
 </p>
 <p>
-	<img src="https://i.imgur.com/akDyber.png" height="75%" width="100%" alt="setting up osTicket cont'd"/>
+	<img src="https://i.imgur.com/eyckn1S.png" height="75%" width="100%" alt="setting up osTicket cont'd"/>
+</p>
+<p>
+</p>
+
 </p>
 <p>Click “Install Now!”</p>
 <p>Congratulations, hopefully it is installed with no errors!</hp>
 <p>
-	<img src="https://i.imgur.com/J5omRoE.png" height="75%" width="100%" alt="installation complete"/>
+	<img src="https://i.imgur.com/Y5rdeO7.png" height="75%" width="100%" alt="installation complete"/>
+</p>
 </p>
 <br />
-<br />
-<h3 align="center">Clean up</h3>
-<br />
-<p>
-	
-</p>
-<p>
-	
-<br />
-<br />
-<h3 align="center">Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)</h3>
-<br />
-<p>
-	<img src="https://i.imgur.com/zklvv8K.png" height="75%" width="100%" alt="admin panel"/>
-</p>
 <br />
 <br />
 <p>
@@ -317,3 +266,32 @@ Install osTicket v1.15.8
 <p>
 	And now you can practice having your own mock help desk locally to prepare you for a postion in a help desk or IT support position.
 </p>
+</p>
+<p>
+	
+</p>
+<p>
+	
+</p>
+<p>
+	
+</p>
+<br />
+
+<p>
+	
+
+<br />
+
+
+</p>
+<p>
+	
+<p>
+	
+
+<p>
+	
+	
+
+
