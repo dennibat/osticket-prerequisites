@@ -142,9 +142,10 @@ Install osTicket v1.15.8
   Download osTicket (download from within lab files: link).
 </p>
 <p>
-	Extract and copy the “upload” folder INTO c:\inetpub\wwwroot:
+	<h3 align="center">Extract and copy the “upload” folder INTO c:\inetpub\wwwroot:</h3>
 </p>
 	<img src="https://i.imgur.com/0MUJLMU.png" height="75%" width="100%" alt="PHP Manager"/>
+ <p>
 	<img src="https://i.imgur.com/1h9goM8.png" height="75%" width="100%" alt="PHP Manager"/>
 <p>
 	Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
@@ -250,6 +251,7 @@ Install osTicket v1.15.8
 	<img src="https://i.imgur.com/rvMvlNC.png" height="75%" width="100%" alt="continue osTicket setup"/>
 	<img src="https://i.imgur.com/YszhIpl.png" height="75%" width="100%" alt="osTicket settings"/>
 </p>
+
 <br />
 <br />
 <h3 align="center">Download and Install HeidiSQL</h3>
