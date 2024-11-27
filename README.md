@@ -148,6 +148,7 @@ Install osTicket v1.15.8
 	<img src="https://i.imgur.com/1h9goM8.png" height="75%" width="100%" alt="PHP Manager"/>
 <p>
 	Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
+	
 </p>
 <p>
 	<img src="https://i.imgur.com/pDikkgq.png" height="75%" width="100%" alt="rename to osTicket"/>
